@@ -18,17 +18,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings 
-                = <&kp LSHFT>
-                , <&kp LGUI>
-                , <&kp N4>;
+                = <&macro_press &kp LSHFT &kp LGUI &kp N4>
+                , <&macro_release &kp LSHFT &kp LGUI &kp N4>;
         };
         scrn_sht_c: scrn_sht_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings 
-                = <&kp LSHFT>
-                , <&kp LGUI>
-                , <&kp N5>;
+                = <&macro_press &kp LSHFT &kp LGUI &kp N5>
+                , <&macro_release &kp LSHFT &kp LGUI &kp N5>;
         };
     };
 
