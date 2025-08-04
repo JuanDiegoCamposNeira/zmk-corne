@@ -59,10 +59,10 @@
 
         both {
             // -----------------------------------------------------------------------------------------
-            // |      | BT1 | BT2 | BT3 |     |     |   |VOL_D|MUTE |VOL_U|    |     |      |
-            // |      |BTCLR|     |     |     |     |   |PREV |Play |NEXT |     |     |      |
-            // |      |     |     |BTCLR|     |     |   |     |     |     |     |     |      |
-            //                    |     |     |     |   |     |     |     |
+            // |      | BT1     | BT2 | BT3 |     |     |   |VOL_D|MUTE |VOL_U|    |     |      |
+            // |      |BTCLR_ALL|     |     |     |     |   |PREV |Play |NEXT |     |     |      |
+            // |      |         |     |BTCLR|     |     |   |     |     |     |     |     |      |
+            //                        |     |     |     |   |     |     |     |
          
             bindings = <
 &trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans    &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &trans  &trans
